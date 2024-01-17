@@ -1,0 +1,300 @@
+.about-me {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-me .div {
+  background-color: #ffffff;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.about-me .overlap {
+  background-color: #f3eded;
+  height: 100%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 50vw;
+
+}
+
+.about-me .divider-2 {
+  background-color: #92278f;
+  height: 100%;
+  right: 0%;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.about-me .text-wrapper {
+  color: #000000;
+  font-family: "Kameron-Bold", Helvetica;
+  font-size: 4vw;
+  font-weight: 700;
+  height: 64px;
+  left: 25%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 55%;
+  width: 30vw;
+}
+
+.about-me .gradphoto {
+  
+  height: auto;
+  right: 35%;
+  position: absolute;
+  margin-top: 15vh;
+  max-width: 130%;
+  object-fit: cover;
+}
+
+.about-me .overlap-group {
+  height: 100%;
+  left: 34%;
+  position: relative;
+  top: 65vh;
+  width: 80vw;
+  margin: 2vh auto;
+}
+
+
+
+.about-me .text-wrapper-2 {
+  color: #000000;
+  font-family: "Kokoro-Regular", Helvetica;
+  font-size: 3vw;
+  font-weight: 400;
+  height: 50px;
+  left: 4%;
+  position: absolute;
+  width: 20%;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin: 4 auto;
+}
+
+.about-me .text-wrapper-3 {
+  color: #000000;
+  font-family: "Kameron-Regular", Helvetica;
+  font-size: 3vw;
+  font-weight: 500;
+  height: 20px;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0 auto;
+}
+
+a { text-decoration: none; 
+color: #000;}
+
+a :hover {
+    cursor: pointer;
+}
+
+.about-me .image, .about-me .img {
+  height: auto;
+  max-width: 100%; /* Adjusted to 10% of the parent width */
+  margin-left: 5%;
+  object-fit: cover;
+  margin-top: 8%; /* Added margin-top for spacing */
+}
+
+.about-me .text-wrapper-4 {
+  color: #000000;
+  font-family: "Kokoro-Regular", Helvetica;
+  font-size: 3vw;
+  font-weight: 400;
+  height: 40px;
+  right: 15vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 20vh;
+  white-space: nowrap;
+}
+
+.about-me .about-details {
+  color: #000000;
+  font-family: "Kokoro-Regular", Helvetica;
+  font-size: 2.2vw;
+  font-weight: 500;
+  right: 1%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30vh;
+  width: 40%;
+}
+
+
+.about-me .overlap-2{
+  height: auto;
+  left: 0;
+  position: absolute;
+  /*top: 1024px;*/
+  width: 100vw;
+
+}
+
+.about-me .overlap-group2 {
+  height: 100vh;
+  left: 0;
+  position: aboslute;
+  top: 0;
+  width: 70%;
+
+} 
+
+.about-me .text-wrapper-6{
+  color:#000;
+  font-family: "Kameron-Bold", Helvetica;
+  font-size: 3.5vw;
+  font-weight: 700;
+  height: auto;
+  left: 30vw;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 48px;
+  width: auto;
+}
+
+.about-me .dalhousie{
+  color: #000000;
+  font-family: "Kameron-Regular", Helvetica;
+  font-weight: 300;
+  left: 2%;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 258px;
+  width: 35%;
+}
+
+.about-me .text-wrapper-7{
+  color: #000000;
+  font-family: "Kameron-Regular", Helvetica;
+  font-size: 3vw;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.about-me .text-wrapper-8{
+  font-size: 2.5vw;
+  line-height: 41.6px;
+}
+
+.about-me .bell-aliant{
+  color: #000000;
+  font-family: "Kameron-Regular", Helvetica;
+  font-weight: 300;
+  right: 2vw;
+  letter-spacing: 0;
+  line-height: 52px;
+  position: absolute;
+  text-align: center;
+  top: 258px;
+  width: 40%;
+}
+
+.about-me .text-wrapper-10{
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+.about-me .text-wrapper-11{
+  color:#000000;
+  font-family: "Kameron-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  height: 61px;
+  left: 50%;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 2190px;
+}
+
+.about-me .overlap-3{
+  height: 90%;
+  left: 10%;
+  position: absolute;
+  top: 2260px;
+  width: 100vw;
+}
+
+.about-me .frame{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80vw;
+}
+
+.about-me .programming{
+  color:#000000;
+  font-family: "Kameron-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  height: 598px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100vw;
+}
+
+.about-me .text-wrapper-12{
+  font-weight: 700;
+}
+
+.about-me .text-wrapper-13{
+  font-family: "Kameron-Regular", Helvetica;
+}
+
+.about-me .technical-skills-ux{
+  color: #000000;
+  font-family:"Kameron-Bold", Helvetica;
+  font-size: 36px;
+  font-weight:400;
+  height:600px;
+  letter-spacing:0;
+  line-height: normal;
+  margin-top:40px;
+  position:v relative;
+  text-align: right;
+  width:100vw;
+}
+
+.about-me .contact-me{
+  color: #000000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: right;
+  top: 60%;
+  right: 20%;
+  width: 100vw;
+}
